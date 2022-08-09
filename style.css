@@ -4,7 +4,7 @@
   background-color: #e2edff;
 }
 
-#projects {
+#contact {
   background-color: #e2edff;
 }
 
@@ -14,6 +14,26 @@ section {
 
 a {
   text-decoration: none;
+}
+
+#skills {
+  background-color: #e2edff;
+}
+
+.pbar-flex-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.progress {
+  flex-grow: 1;
+}
+
+.pbar-mr-2 {
+  margin-right: .2rem;
+  display: block;
 }
 
 // Media queries

@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio webpage",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass --watch sass/main.scss css/main.css",
+    "trace:sass": "sass --trace sass/main.scss css/main.css",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "author": "Saaidin",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "concat": "^1.0.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.52.2"
+  }
+}

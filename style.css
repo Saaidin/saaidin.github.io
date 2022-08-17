@@ -1,12 +1,12 @@
 
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  /* background-color: #e2edff; */
 }
 
-#contact {
+/* #contact {
   background-color: #e2edff;
-}
+} */
 
 section {
   padding-top: 5rem;
@@ -16,9 +16,9 @@ a {
   text-decoration: none;
 }
 
-#skills {
+/* #skills {
   background-color: #e2edff;
-}
+} */
 
 .pbar-flex-1 {
   display: flex;
@@ -36,12 +36,12 @@ a {
   display: block;
 }
 
-// Media queries
+/* // Media queries
 <div class="container-sm">100% wide until small breakpoint</div>
 <div class="container-md">100% wide until medium breakpoint</div>
 <div class="container-lg">100% wide until large breakpoint</div>
 <div class="container-xl">100% wide until extra large breakpoint</div>
-<div class="container-xxl">100% wide until extra extra large breakpoint</div>
+<div class="container-xxl">100% wide until extra extra large breakpoint</div> */
 
 /*
 $grid-breakpoints: (

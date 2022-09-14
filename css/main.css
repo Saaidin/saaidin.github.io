@@ -90,16 +90,35 @@ body {
 .jumbotron {
   background-color: #e0cffc;
 }
+.jumbotron__img {
+  margin-top: 2rem;
+}
+@media (max-width: 375px) {
+  .jumbotron__img {
+    margin-top: -3rem;
+  }
+}
+
+.about__h2 {
+  margin-bottom: 2rem;
+}
 
 .path-about {
   fill: #e0cffc;
 }
 
-#skills {
+.skills {
   background-color: #e0cffc;
 }
+.skills__h2 {
+  margin-bottom: 2rem;
+  margin-top: -4rem;
+}
+.skills__bg-nextJS {
+  background-color: #26e37b;
+}
 
-.skill-h2 {
+.projects__h2 {
   margin-bottom: 2rem;
 }
 

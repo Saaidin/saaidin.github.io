@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch:sass": "sass --watch sass/main.scss css/main.css",
-    "trace:sass": "sass --trace sass/main.scss css/main.css",
-    "devserver": "live-server",
-    "start": "npm-run-all --parallel devserver watch:sass"
+    "trace:sass": "sass --trace sass/main.scss css/main.css"
   },
   "author": "Saaidin",
   "license": "ISC",

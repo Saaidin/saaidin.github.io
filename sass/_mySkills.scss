@@ -1,7 +1,15 @@
-#skills {
+.skills {
   background-color: #e0cffc; //indigo-100
+  
+  &__h2 {
+    margin-bottom: 2rem;
+    margin-top: -4rem;
+  }
+  
+  &__bg-nextJS {
+    background-color: #26e37b; 
+  }
 }
 
-.skill-h2 {
-  margin-bottom: 2rem;
-}
+
+

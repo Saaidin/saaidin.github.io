@@ -1,14 +1,6 @@
 .jumbotron {
   background-color: #e0cffc; //indigo-100
   
-  &__img {
-    margin-top: 2rem;
-    
-  }
-  
-  @media (max-width: 375px) {
-    &__img {
-      margin-top: -3rem;
-    }
-  }
+
 }
+

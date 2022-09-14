@@ -1,32 +1,32 @@
 
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-);
+// $theme-colors: (
+//   "primary":    $primary,
+//   "secondary":  $secondary,
+//   "success":    $success,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark
+// );
 
 
-$colors: (
-  "blue":       $blue,
-  "indigo":     $indigo,
-  "purple":     $purple,
-  "pink":       $pink,
-  "red":        $red,
-  "orange":     $orange,
-  "yellow":     $yellow,
-  "green":      $green,
-  "teal":       $teal,
-  "cyan":       $cyan,
-  "black":      $black,
-  "white":      $white,
-  "gray":       $gray-600,
-  "gray-dark":  $gray-800
-);
+// $colors: (
+//   "blue":       $blue,
+//   "indigo":     $indigo,
+//   "purple":     $purple,
+//   "pink":       $pink,
+//   "red":        $red,
+//   "orange":     $orange,
+//   "yellow":     $yellow,
+//   "green":      $green,
+//   "teal":       $teal,
+//   "cyan":       $cyan,
+//   "black":      $black,
+//   "white":      $white,
+//   "gray":       $gray-600,
+//   "gray-dark":  $gray-800
+// );
 
 //------------------------------
 
@@ -39,58 +39,3 @@ $colors: (
 // }
 
 
-// <h1>Sass color functions <code>lighten()</code> and <code>darken()</code> vs. <code>mix()</code> with black and white</h1>
-// <h2><code>lighten()</code> and <code>darken()</code></h2>
-// <div>
-//   <div class="darken-100"></div>
-//   <div class="darken-80"></div>
-//   <div class="darken-60"></div>
-//   <div class="darken-40"></div>
-//   <div class="darken-20"></div>
-//   <div></div>
-//   <div class="lighten-20"></div>
-//   <div class="lighten-40"></div>
-//   <div class="lighten-60"></div>
-//   <div class="lighten-80"></div>
-//   <div class="lighten-100"></div>
-// </div>
-// <h2><code>mix()</code> with black and white</h2>
-// <div>
-//   <div class="mix-black-100"></div>
-//   <div class="mix-black-80"></div>
-//   <div class="mix-black-60"></div>
-//   <div class="mix-black-40"></div>
-//   <div class="mix-black-20"></div>
-//   <div></div>
-//   <div class="mix-white-20"></div>
-//   <div class="mix-white-40"></div>
-//   <div class="mix-white-60"></div>
-//   <div class="mix-white-80"></div>
-//   <div class="mix-white-100"></div>
-// </div>
-
-// $color: aqua;
-// div>div {
-//   border: 1px solid grey;
-//   width: 100px;
-//   height: 100px;
-//   display: inline-block;
-//   background-color: $color;
-// }
-// @for $i from 20 through 100 {
-//   @if $i % 10 == 0 {
-//     $percentage: $i*1%;
-//     .darken-#{$i} {
-//       background-color: darken($color, $percentage);
-//     }
-//     .lighten-#{$i} {
-//       background-color: lighten($color, $percentage);
-//     }
-//     .mix-black-#{$i} {
-//       background-color: mix(black, $color, $percentage);
-//     }
-//     .mix-white-#{$i} {
-//       background-color: mix(white, $color, $percentage);
-//     }
-//   }
-// }

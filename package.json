@@ -16,9 +16,14 @@
     "concat": "^1.0.3",
     "npm-run-all": "^4.1.1",
     "postcss-cli": "^9.1.0",
-    "sass": "^1.52.2"
+    "sass": "^1.52.2",
+    "stylelint": "^14.11.0",
+    "stylelint-config-twbs-bootstrap": "^6.0.0"
   },
   "dependencies": {
-    "bootstrap": "^5.2.1"
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.1",
+    "bootstrap-icons": "^1.9.1",
+    "jquery": "^3.6.1"
   }
 }
